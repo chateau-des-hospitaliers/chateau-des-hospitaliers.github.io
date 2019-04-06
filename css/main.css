@@ -141,3 +141,14 @@
   color: #fff;
   border-color: #fff;
 }
+
+/* Gallery Section */
+#gallery {
+	background: #f3f4f3;
+  position: relative;
+  padding: 30px;
+}
+
+#gallery .gallery-box {
+  margin-bottom: 30px;
+}
