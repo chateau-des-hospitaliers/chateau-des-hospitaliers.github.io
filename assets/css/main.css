@@ -1990,7 +1990,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Pricing Ticket */
 #pricing {
-  background: url(../images/background/bg-services.jpg);
+  background: url(../images/background/bg_services.jpg);
   background-attachment: fixed;
   overflow: hidden;
   position: relative;
