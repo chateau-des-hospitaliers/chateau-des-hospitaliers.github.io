@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: 'abugetregular';
+    src: url('../fonts/abuget-webfont.woff2') format('woff2'),
+         url('../fonts/abuget-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+  background-color: lightgrey !important;
+}
+
+
+.navbar{
+  padding: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 32px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+#main-slide .carousel-indicators {
+  cursor: pointer;
+  bottom: 90px;
+}
+
+#main-slide .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+
+#main-slide .carousel-control {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#main-slide:hover .carousel-control {
+  display: block;
+  transition: all 0.3s ease-in-out;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+#main-slide .carousel-inner .carousel-item::after {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#main-slide .carousel-item .carousel-caption {
+  opacity: 0;
+  transition: opacity 100ms ease 0s;
+  z-index: 0;
+}
+
+#main-slide .carousel-item .carousel-caption .heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+}
+
+#main-slide .carousel-item .carousel-caption p {
+  font-size: 20px;
+}
+
+#main-slide .carousel-item.active .carousel-caption {
+  opacity: 1;
+  transition: opacity 100ms ease 0s;
+  z-index: 1;
+}
+
+#main-slide .carousel-caption {
+  color: #fff;
+  position: absolute;
+  top: 35%;
+}
+
+#main-slide .carousel-caption .btn {
+  margin: 25px 25px 0px 0px;
+}
+
+#main-slide .carousel-control-prev,
+#main-slide .carousel-control-next {
+  top: 45%;
+  position: absolute;
+  z-index: 5;
+}
+
+#main-slide .carousel-control-prev {
+  left: 15px;
+}
+
+#main-slide .carousel-control-next {
+  right: 15px;
+}
+
+
+#main-slide .carousel-control i {
+  line-height: 40px;
+  font-size: 18px;
+  width: 45px;
+  border: 2px solid #fff;
+  height: 45px;
+  display: block;
+  border-radius: 2px;
+  background: transparent;
+  color: #fff;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+}
+
+#main-slide .carousel-control i:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-color: #fff;
+}
