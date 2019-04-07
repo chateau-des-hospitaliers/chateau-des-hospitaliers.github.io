@@ -1,19 +1,10 @@
 
-@font-face {
-    font-family: 'abugetregular';
-    src: url('../fonts/abuget-webfont.woff2') format('woff2'),
-         url('../fonts/abuget-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .navbar-light .nav-item.active .nav-link,
 .navbar-light .nav-item .nav-link:active,
 .navbar-light .nav-item .nav-link:focus,
 .navbar-light .nav-item:hover .nav-link {
   background-color: lightgrey !important;
 }
-
 
 .navbar{
   padding: 0;
@@ -101,10 +92,6 @@
   top: 35%;
 }
 
-#main-slide .carousel-caption .btn {
-  margin: 25px 25px 0px 0px;
-}
-
 #main-slide .carousel-control-prev,
 #main-slide .carousel-control-next {
   top: 45%;
@@ -142,18 +129,89 @@
   border-color: #fff;
 }
 
+#domain {
+  background: #9baec8;
+  padding: 50px;
+}
+
+#wine {
+	background: #d9e1e8;
+  padding: 50px;
+}
+
+#lodge {
+  background: #9baec8;
+  padding: 50px;
+}
+
 #gallery {
 	background: #d9e1e8;
-  padding-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 #gallery .gallery-box {
   margin-bottom: 30px;
 }
 
-#domain {
-  background: #9baec8;
-  padding: 30px;
+#google-map-area #map-container {
+	position: relative;
+  height: 580px;
 }
 
+#google-map-area .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
+#contact {
+  padding: 50px;
+  background: #9baec8;
+}
+
+#contact .form-wrapper {
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#contact .form-title {
+  margin-bottom: 50px;
+}
+
+#contact .form-control {
+  margin-bottom: 30px;
+  display: block;
+  width: 100%;
+  line-height: 27px;
+  font-size: 14px;
+  color: #848484;
+  background: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  border-radius: 0px;
+  transition: all 250ms ease;
+  -webkit-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+}
+
+#contact .form-control:focus {
+  border-color: #282c37;
+  box-shadow: none;
+  outline: 0;
+}
+
+#contact .btn {
+  margin: 0px;
+  background-color: #d9e1e8 !important;
+}
+
+#copyright {
+  background: #0b0b0b;
+}
+
+#copyright p {
+  color: lightgrey;
+  font-size: 12px;
+  margin: 0;
+}
