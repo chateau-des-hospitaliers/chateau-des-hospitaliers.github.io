@@ -1,3 +1,7 @@
+AOS.init({
+ duration: 1200
+});
+
 (function($) {
 
   "use strict";
@@ -18,5 +22,7 @@
     });
 
   });
+
+  new WOW().init()
 
 }(jQuery));

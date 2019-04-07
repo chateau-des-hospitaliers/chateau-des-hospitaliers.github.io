@@ -142,13 +142,18 @@
   border-color: #fff;
 }
 
-/* Gallery Section */
 #gallery {
-	background: #f3f4f3;
-  position: relative;
-  padding: 30px;
+	background: #d9e1e8;
+  padding-top: 30px;
 }
 
 #gallery .gallery-box {
   margin-bottom: 30px;
 }
+
+#domain {
+  background: #9baec8;
+  padding: 30px;
+}
+
+
