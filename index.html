@@ -19,19 +19,21 @@
 
   <body>
 
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <!--Main Navigation-->
+    <header>
+
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img class="d-inline-block" height="48" src="images/logo.png" alt="Chateau des Hospitaliers">
-          </a>
+          <a class="navbar-brand" href="#"><img class="d-inline-block" height="48" src="images/logo.png"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="main-navbar">
-            <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="#main-slide">Bienvenue</a></li>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a class="nav-link" href="#">Bienvenue<span class="sr-only"> (current)</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#domain">Domaine</a></li>
               <li class="nav-item"><a class="nav-link" href="#wine">Nos vins</a></li>
+              <li class="nav-item"><a class="nav-link" href="#wine">Nos huiles</a></li>
               <li class="nav-item"><a class="nav-link" href="#lodge">Nos salles</a></li>
               <li class="nav-item"><a class="nav-link" href="#gallery">Gallerie</a></li>
               <li class="nav-item"><a class="nav-link" href="#google-map-area">Contact</a></li>
@@ -40,6 +42,25 @@
         </div>
       </nav>
 
+      <div class="view main-background">
+        <div class="full-bg-img">
+          <div class="mask flex-center">
+            <div class="container text-center white-text wow fadeInUp">
+              <h2>This Navbar is fixed and transparent</h2>
+              <br>
+              <h5>It will always stay visible on the top, even when you scroll down</h5>
+              <p>Navbar's background will switch from transparent to solid color while scrolling down</p>
+              <br>
+              <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    <!--Main Navigation-->
+
+    <main>
     <div id="main-slide" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#main-slide" data-slide-to="0" class="active"></li>
@@ -234,20 +255,24 @@
       </div>
     </section>
 
-    <footer>
-      <div class="container" style="height: 150px;">
-      </div>
-    </footer>
+    </main>
 
-    <section id="copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <p>© DOMAINE MARTIN PIERRAT SARL</p>
+    <footer>
+
+      <div class="container" style="height: 150px;"></div>
+
+      <section id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <p>© DOMAINE MARTIN PIERRAT SARL</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+    </footer>
+
 
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

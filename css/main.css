@@ -1,31 +1,28 @@
-
-.navbar-light .nav-item.active .nav-link,
-.navbar-light .nav-item .nav-link:active,
-.navbar-light .nav-item .nav-link:focus,
-.navbar-light .nav-item:hover .nav-link {
-  background-color: lightgrey !important;
+.main-background {
+    background: url("../images/background/background.jpg") no-repeat center center;
+    background-size: cover;
 }
 
-.navbar{
-  padding: 0;
+.navbar {
+    background-color: transparent;
 }
 
-.navbar-right {
-  margin-right: 0px;
+.top-nav-collapse {
+    background-color: #4285F4;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 0 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 32px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
 }
 
-
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
 
 #main-slide .carousel-indicators {
   cursor: pointer;
