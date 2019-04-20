@@ -2,26 +2,13 @@
 
   "use strict";
 
-  $(window).on('load', function() {
-
-    $(window).on('scroll', function() {
-      if ($(window).scrollTop() > 200) {
-        $('.scrolling-navbar').addClass('top-nav-collapse');
-      } else {
-        $('.scrolling-navbar').removeClass('top-nav-collapse');
-      }
-    });
-
-  });
-
   new WOW().init()
 
 }(jQuery));
 
-
 function init_map() {
 
-'use strict';
+  "use strict";
 
   var map = new google.maps.Map(document.getElementById('map-container'), {
     zoom: 15,
